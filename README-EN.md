@@ -31,7 +31,6 @@
 | **APPLY_DAILY_TURBO**    | Whether to use the daily free turbo boost (_True / False)_                               |
 | **RANDOM_CLICKS_COUNT**  | Random number of taps _(eg [50,200])_                                                    |
 | **SLEEP_BETWEEN_TAP**    | Random delay between taps in seconds _(eg [10,25])_                                      |
-| **USE_PROXY_FROM_FILE**  | Whether to use proxy from the `bot/config/proxies.txt` file _(True / False)_             |
 
 ## Quick Start 📚
 1. To install libraries on Windows click on `INSTALL.bat`.
@@ -47,9 +46,9 @@ Before you begin, ensure you have the following installed:
 3. Note down the `API_ID` and `API_HASH` in `.env` file provided after registering your application.
 
 ## Installation
-You can download [**Repository**](https://github.com/shamhi/TapSwapBot) by cloning it to your system and installing the necessary dependencies:
+You can download [**Repository**](https://github.com/Bolidik/TapSwapBot/tree/main) by cloning it to your system and installing the necessary dependencies:
 ```shell
-~ >>> git clone https://github.com/shamhi/TapSwapBot.git
+~ >>> git clone https://github.com/Bolidik/TapSwapBot/tree/main
 ~ >>> cd TapSwapBot
 
 # If you are using Telethon sessions, then clone the "converter" branch
