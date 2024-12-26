@@ -53,7 +53,7 @@ class Tapper:
 
             while True:
                 try:
-                    peer = await self.tg_client.resolve_peer('tapswap_bot')
+                    peer = await self.tg_client.resolve_peer('tapswap_bot') ############
                     break
                 except FloodWait as fl:
                     fls = fl.value
